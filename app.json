@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "MDPicture",
+    "slug": "MDPicture",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/ikon.png",
+    "userInterfaceStyle": "light",
+    "jsEngine": "jsc",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "splash": {
+        "image": "./assets/images/mdpLite.png", 
+        "tabletImage": "./assets/splash.png", 
+        "resizeMode": "contain",
+        "backgroundColor": "#000000"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/ikon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "splash": {
+        "image": "./assets/logoMD.png",
+        "resizeMode": "300x300",
+        "backgroundColor": "#000000",
+        "test": "dfgds"
+      }
+    },
+    "web": {
+      "favicon": "./assets/ikon.png"
+    },
+    "extra": {
+ 
+    }
+  }
+}
